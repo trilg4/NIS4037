@@ -41,3 +41,11 @@ if __name__ == "__main__":
     pred = ViolenceClass()
     pred.make_predictions()
 ```
+
+### 模型地址
+* 只使用原始数据集训练得到的模型：
+    * [old](https://drive.google.com/file/d/1d5EYGS8Gr-ARRdo5hU6sXZpFzHd7yyiF/view?usp=drive_link)
+* 使用扩充的训练集得到的模型：
+    * [new](https://drive.google.com/file/d/1h8wElR2WYpSuTcWTKuDlcFTQCQQ0awI_/view?usp=drive_link)
+
+**NOTE:如果需要使用不同的模型，需要更改`classify.py`中的`weight_path`**
